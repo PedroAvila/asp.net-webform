@@ -124,6 +124,8 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="WebForm02.aspx" />
+    <Content Include="WebForm03.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -207,6 +209,20 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm02.aspx.cs">
+      <DependentUpon>WebForm02.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm02.aspx.designer.cs">
+      <DependentUpon>WebForm02.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm03.aspx.cs">
+      <DependentUpon>WebForm03.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm03.aspx.designer.cs">
+      <DependentUpon>WebForm03.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
